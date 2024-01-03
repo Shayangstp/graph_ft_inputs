@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Tree from "react-d3-tree";
 import orgChartJson from "./data/org-chart.json";
-import { useCenteredTree } from "./Components/Helper";
+import { useCenteredTree } from "./Helper/helper";
 import { Button, Form, Row } from "react-bootstrap";
 
 // 1/Identify the parent map to which you want to add the submap.
@@ -85,7 +85,7 @@ const App = () => {
                           className="mt-2"
                           size="sm"
                           onClick={() => {
-                            // have to get id and add the specefic id in the dataBase 
+                            // have to get id and add the specefic id in the dataBase
                             console.log("add");
                           }}
                         >
@@ -112,7 +112,7 @@ const App = () => {
     x: 20,
   };
   return (
-    // rtl dosent needed remove it 
+    // rtl dosent needed remove it
     <div style={containerStyles} ref={containerRef} dir="rtl">
       <Tree
         data={orgChartJson}
@@ -121,7 +121,7 @@ const App = () => {
         renderCustomNodeElement={(rd3tProps) =>
           renderForeignObjectNode({ ...rd3tProps, foreignObjectProps })
         }
-        // change the graph direction 
+        // change the graph direction
         orientation="vertical"
       />
     </div>
