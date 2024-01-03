@@ -1,0 +1,62 @@
+{
+  "name": "Root",
+  "id": "Root",
+  "children": [
+    {
+      "name": "map-A",
+      "code": "12211",
+      "id": "map-A",
+      "children": [
+        {
+          "name": "map-A-1",
+          "code": "12211",
+          "id": "map-A-1",
+          "children": [
+            {
+              "name": "map-A-1-1",
+              "id": "map-A-1-1",
+              "code": "12211",
+              "children": [
+                {
+                  "name": "map-A-1-1-1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "map-A-2",
+          "code": "12211",
+          "id": "map-A-2",
+          "children": [
+            {
+              "name": "map-A-2-1",
+              "id": "map-A-2-1",
+              "code": "12211",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "map-B",
+      "id": "map-B",
+      "code": "1e2344",
+      "children": [
+        {
+          "name": "map-B-2",
+          "id": "map-B-2",
+          "code": "1e2344",
+          "children": []
+        },
+        {
+          "name": "map-B-1",
+          "id": "map-B-1",
+          "code": "121212",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
